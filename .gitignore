@@ -1,0 +1,14 @@
+# Java build outputs
+*.class
+out/
+build/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local experiment folders
+.sixth/
+archive/old-practice/
