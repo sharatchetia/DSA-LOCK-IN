@@ -1,10 +1,10 @@
 # Day 01 Notes
 
-Add the scanned handwritten notes here as:
+My handwritten Day 1 notes are here:
 
 ```text
-day-01-notes.pdf
+day 1 dsa.pdf
 ```
 
-A single PDF is cleaner for GitHub than multiple photos because it is easier to
-open, read, download, and keep in order.
+I am keeping notes as one PDF per day so they stay in order and are easier to
+open from GitHub.

@@ -1,25 +1,28 @@
 # Day 01
 
-## Topics
+## What I revised
 
-- Array revision
-- User input with arrays
+- Arrays
+- Taking array input with `Scanner`
 - Linear search
 - 2D arrays
-- String reversal
-- Brute force problem solving
+- String reversal using `StringBuilder`
 
-## Problems
+## LeetCode practice
 
-| Problem | Approach | Status |
-| --- | --- | --- |
-| Reverse String | Two-pointer swap with `StringBuilder` | Completed |
-| Two Sum | Brute force nested loops | Completed |
-| Contains Duplicate | Brute force nested loops | Completed, needs optimized solution |
-| Rotate Array | Concept reviewed | Revisit |
-| Valid Anagram | Pending HashMap/HashSet knowledge | Revisit |
+- Reverse String
+- Two Sum using brute force
+- Contains Duplicate using brute force
 
-## Key Learning
+## My notes
 
-Brute force solutions are useful for understanding the problem, but many array
-and string problems become faster with `HashMap` or `HashSet`.
+Contains Duplicate was not submitted because the brute force approach can exceed
+the time limit.
+
+Rotate Array is partially understood, but I am not fully confident with it yet.
+
+Valid Anagram is still pending because it needs HashMap/HashSet, which I have
+not covered properly yet. I will come back to it after learning those topics.
+
+Main learning: brute force helps me understand the question first, but many
+array and string questions need HashMap or HashSet for better solutions.

@@ -1,46 +1,37 @@
-# 30 Day DSA Lock-In
+# DSA Lock-In
 
-This repository tracks my 30-day Data Structures and Algorithms practice.
+I am following a 30 day DSA schedule and uploading my daily progress here.
 
-## Structure
-
-```text
-.
-|-- days/
-|   `-- day-01/
-|       |-- Day01.java
-|       `-- README.md
-|-- notes/
-|   `-- day-01/
-|       `-- README.md
-`-- README.md
-```
+This repo is mainly for keeping my code, notes, and revision points in one
+place. Some solutions are brute force right now because I am still building the
+basics properly before moving to optimized approaches.
 
 ## Progress
 
-| Day | Topic | Status |
+| Day | What I studied | Status |
 | --- | --- | --- |
-| 01 | Arrays, strings, brute force problems | Completed |
+| 01 | Arrays, 2D arrays, strings, brute force problems | Done |
 
-## Notes Format
+## Folder setup
 
-For handwritten notes, a PDF is better than uploading many loose photos.
+```text
+days/      daily code and short summaries
+notes/     handwritten notes as PDFs
+archive/   older practice files kept locally
+```
 
-- Use one PDF per day, for example `notes/day-01/day-01-notes.pdf`.
-- Keep images only if they are diagrams or screenshots that need to stay separate.
-- Avoid uploading blurry or duplicate photos.
+## Day 1
 
-## Day 1 Summary
+On Day 1, I revised array basics, input using `Scanner`, linear search, 2D
+arrays, and string reversal.
 
-Solved:
+I also tried LeetCode style questions:
 
 - Reverse String
-- Two Sum using brute force
-- Contains Duplicate using brute force
+- Two Sum with brute force
+- Contains Duplicate with brute force
 
-Need to revisit:
+Contains Duplicate was not submitted because the brute force solution can give
+TLE. I also need to revisit Rotate Array, Valid Anagram, HashMap, and HashSet.
 
-- Rotate Array
-- Valid Anagram
-- HashMap
-- HashSet
+Handwritten notes for Day 1 are in `notes/day-01/day 1 dsa.pdf`.
