@@ -224,3 +224,8 @@ class Solution5 {
         return maxsum;
     }
 }
+
+
+
+
+// 3 sum not done due to the warning of losing confidence by gpt 
