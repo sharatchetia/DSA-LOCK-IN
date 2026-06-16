@@ -57,3 +57,36 @@ I could not do the medium questions today because of time and mental fatigue:
 
 Positive side: I watched the HashSet videos, so I can probably jump into those
 questions next.
+
+## Day 03
+
+### What I studied
+
+- Prefix sum
+- Two pointers
+- Basic Kadane's algorithm idea for Maximum Subarray
+
+### Practice
+
+- Running Sum of 1D Array
+- Two Sum II
+- Squares of a Sorted Array
+- Move Zeroes
+- Maximum Subarray
+
+### My notes
+
+Today I did not watch new lectures from the playlist. I focused on the topics
+needed for questions.
+
+For prefix sum, the main thing I understood is:
+
+```text
+prefix[i] = prefix[i - 1] + nums[i]
+```
+
+For two pointers, I practiced the left and right pointer pattern on a sorted
+array. I first tried the logic myself, then wrote the generic pattern.
+
+Maximum Subarray was done using Kadane's algorithm style, and I also kept
+another version that I wrote which works even if it is not the best way.

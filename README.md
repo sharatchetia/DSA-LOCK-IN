@@ -12,6 +12,7 @@ basics properly before moving to optimized approaches.
 | --- | --- | --- |
 | 01 | Arrays, 2D arrays, strings, brute force problems | Done |
 | 02 | HashSet, HashMap, frequency counting, hashmap questions | Done for now, more practice pending |
+| 03 | Prefix sum, two pointers, Kadane's algorithm basics | Done |
 
 ## Folder setup
 
@@ -58,3 +59,30 @@ mental fatigue, but I watched the HashSet videos and can probably jump into the
 questions next.
 
 Handwritten notes for Day 2 are in `notes/my_notes/day 2 dsa.pdf`.
+
+## Day 3
+
+On Day 3, I did not watch new playlist lectures. I focused on topics I needed
+for questions: prefix sum and two pointers.
+
+For prefix sum, I understood the basic formula:
+
+```text
+prefix[i] = prefix[i - 1] + nums[i]
+```
+
+I also practiced two pointers with the common left/right pattern on a sorted
+array.
+
+LeetCode practice:
+
+- Running Sum of 1D Array
+- Two Sum II
+- Squares of a Sorted Array
+- Move Zeroes
+- Maximum Subarray
+
+Maximum Subarray was done in two ways. One is the better Kadane's algorithm
+style, and one is my own version that still works.
+
+Handwritten notes for Day 3 are in `notes/my_notes/day 3 dsa.pdf`.
