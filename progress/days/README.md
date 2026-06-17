@@ -90,3 +90,39 @@ array. I first tried the logic myself, then wrote the generic pattern.
 
 Maximum Subarray was done using Kadane's algorithm style, and I also kept
 another version that I wrote which works even if it is not the best way.
+
+## Day 04
+
+### What I studied
+
+- HashMap and HashSet revision
+- Binary search
+- Recursive binary search
+- Search insert position
+- Lower bound
+- Upper bound
+- Binary search on boundaries
+
+### Practice
+
+- Contains Duplicate using HashSet
+- Contains Duplicate using HashMap
+- Two Sum using HashMap
+- Binary Search
+- Search Insert Position
+- First Bad Version
+- Find First and Last Position of Element in Sorted Array
+
+### My notes
+
+Before starting binary search, I practiced HashMap and HashSet again. I did Two
+Sum and Contains Duplicate by myself, and I also tried Contains Duplicate with a
+HashMap even though HashSet is cleaner for that problem.
+
+For binary search, I understood that the array needs to be sorted. If the array
+is not sorted, linear search may be better because sorting first takes
+`O(n log n)`.
+
+First Bad Version was tricky because it is not searching for an exact value. It
+is searching for the first point where a condition becomes true. The main thing
+I learned from it is that binary search can be used for boundaries too.

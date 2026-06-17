@@ -13,6 +13,7 @@ basics properly before moving to optimized approaches.
 | 01 | Arrays, 2D arrays, strings, brute force problems | Done |
 | 02 | HashSet, HashMap, frequency counting, hashmap questions | Done for now, more practice pending |
 | 03 | Prefix sum, two pointers, Kadane's algorithm basics | Done |
+| 04 | Binary search, bounds, and sorted-array search patterns | Done |
 
 ## Folder setup
 
@@ -86,3 +87,27 @@ Maximum Subarray was done in two ways. One is the better Kadane's algorithm
 style, and one is my own version that still works.
 
 Handwritten notes for Day 3 are in `notes/my_notes/day 3 dsa.pdf`.
+
+## Day 4
+
+On Day 4, I practiced HashMap and HashSet once again before starting binary
+search. I did Two Sum and Contains Duplicate again by myself, including a
+HashMap version of Contains Duplicate.
+
+The main topic for the day was binary search. I learned the normal iterative
+pattern, recursive binary search, search insert position, lower bound, upper
+bound, and how to combine lower and upper bound for finding the first and last
+position of an element.
+
+LeetCode practice:
+
+- Binary Search
+- Search Insert Position
+- First Bad Version
+- Find First and Last Position of Element in Sorted Array
+
+Main learning: binary search is not only for directly finding a value in an
+array. It is also useful when the search space is ordered and I need to find a
+boundary.
+
+Handwritten notes for Day 4 are in `notes/my_notes/day 4 dsa.pdf`.
