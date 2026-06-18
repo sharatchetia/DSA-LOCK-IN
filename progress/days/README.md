@@ -126,3 +126,64 @@ is not sorted, linear search may be better because sorting first takes
 First Bad Version was tricky because it is not searching for an exact value. It
 is searching for the first point where a condition becomes true. The main thing
 I learned from it is that binary search can be used for boundaries too.
+
+## Day 05
+
+### What I studied
+
+- Recursion basics
+- Base cases
+- Call stack
+- Stack overflow
+- Return-based recursion
+- Parameter-carrying recursion
+- First exposure to backtracking
+
+### Practice
+
+- Print numbers using recursion
+- Natural sum using recursion
+- Factorial using a parameter-carrying approach
+- Factorial using a return-based approach
+- Fibonacci number
+- Fibonacci series
+- Reverse String using two pointers
+- Reverse String using recursion
+- Climbing Stairs
+- Power of Two
+- Started Subsets
+
+### My notes
+
+Today I focused on recursion from the Apna College one-shot. The biggest thing
+I understood is that recursion needs three parts: a base case, a smaller
+problem, and a recursive call.
+
+Factorial helped me understand the difference between carrying an answer as a
+parameter and returning an answer from the recursive function. I currently
+understand the parameter-carrying style more naturally, but the return-based
+style is becoming clearer.
+
+For Fibonacci and Climbing Stairs, I learned that I do not always need to build
+from the smallest value upward. I can start from the problem I want and express
+it using smaller subproblems. Climbing Stairs also showed me that a recursive
+relation can be logically correct but still too slow, which is why memoization
+and dynamic programming matter.
+
+Reverse String helped me connect recursion with the two-pointer pattern:
+swap the current `low` and `high`, then solve the smaller problem inside the
+array.
+
+Power of Two was submitted successfully. The idea was to keep dividing by 2
+until the number reaches 1, while rejecting non-positive numbers and odd
+numbers except 1.
+
+I also started Subsets and got my first exposure to backtracking. The main idea
+I learned is the take / do not take choice for every element, but I am not
+comfortable with it yet. I will revisit Subsets during revision.
+
+Current weak areas:
+
+- Backtracking
+- Subsets
+- Understanding recursion trees quickly
