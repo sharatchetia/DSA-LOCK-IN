@@ -14,6 +14,7 @@ basics properly before moving to optimized approaches.
 | 02 | HashSet, HashMap, frequency counting, hashmap questions | Done for now, more practice pending |
 | 03 | Prefix sum, two pointers, Kadane's algorithm basics | Done |
 | 04 | Binary search, bounds, and sorted-array search patterns | Done |
+| 05 | Recursion basics, recursive patterns, and first backtracking exposure | Done, backtracking needs revision |
 
 ## Folder setup
 
@@ -111,3 +112,29 @@ array. It is also useful when the search space is ordered and I need to find a
 boundary.
 
 Handwritten notes for Day 4 are in `notes/my_notes/day 4 dsa.pdf`.
+
+## Day 5
+
+On Day 5, I focused on recursion basics from the Apna College one-shot. I
+revised base cases, the call stack, stack overflow, and how to break a problem
+into smaller recursive calls.
+
+Practice and examples:
+
+- Natural sum using recursion
+- Factorial with both parameter-carrying and return-based recursion
+- Fibonacci number and Fibonacci series
+- Reverse String using both iterative two pointers and recursion
+- Climbing Stairs
+- Power of Two
+- First look at Subsets and the take / do not take backtracking pattern
+
+Main learning: recursion is starting to feel less like magic. I can usually
+identify the base case, the smaller problem or choice, and the recursive call.
+Climbing Stairs also showed why a correct recursive relation can still be too
+slow, which is my first real reason to learn memoization and DP.
+
+Still weak in backtracking, subsets, and reading recursion trees quickly. I
+will revisit these during revision.
+
+Handwritten notes for Day 5 are in `notes/my_notes/day 5 dsa.pdf`.
