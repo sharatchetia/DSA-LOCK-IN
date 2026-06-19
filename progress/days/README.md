@@ -187,3 +187,44 @@ Current weak areas:
 - Backtracking
 - Subsets
 - Understanding recursion trees quickly
+
+## Day 06
+
+### What I studied
+
+- String patterns
+- String creation using literals and the `new` keyword
+- String pool
+- Character access with `charAt`
+- String immutability
+- StringBuilder revision
+- String comparison using `equals`, `equalsIgnoreCase`, and `==`
+- String input using `Scanner`
+- Common string methods
+
+### Practice
+
+- Valid Palindrome
+- First Unique Character in a String
+- Longest Common Prefix
+
+### My notes
+
+Day 06 was focused on the string pattern topics that I missed earlier. I
+watched a Love Babbar video and revised the basics of how strings work in Java.
+
+For Valid Palindrome, I was almost able to do the logic by myself. The main
+idea was to use two pointers, skip non-alphanumeric characters, compare the
+valid characters in lowercase, and move inward.
+
+For First Unique Character in a String, I solved it by myself using a HashMap
+to count character frequencies, then scanned the string again to find the first
+character with frequency 1.
+
+Longest Common Prefix was not done by myself. I need to revisit it carefully
+and understand the character-by-character comparison across all strings.
+
+Pending for Day 07 revision:
+
+- Longest Substring Without Repeating Characters
+- Group Anagrams

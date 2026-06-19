@@ -15,6 +15,7 @@ basics properly before moving to optimized approaches.
 | 03 | Prefix sum, two pointers, Kadane's algorithm basics | Done |
 | 04 | Binary search, bounds, and sorted-array search patterns | Done |
 | 05 | Recursion basics, recursive patterns, and first backtracking exposure | Done, backtracking needs revision |
+| 06 | String patterns, string methods, and string practice problems | Done for now, two problems pending |
 
 ## Folder setup
 
@@ -138,3 +139,28 @@ Still weak in backtracking, subsets, and reading recursion trees quickly. I
 will revisit these during revision.
 
 Handwritten notes for Day 5 are in `notes/my_notes/day 5 dsa.pdf`.
+
+## Day 6
+
+On Day 6, I covered the string pattern topics that were missed earlier. I
+revised string creation, the string pool, character access with `charAt`,
+immutability, string comparison, string input, and common string methods like
+`length`, `toLowerCase`, `toUpperCase`, `trim`, `substring`, `replace`,
+`split`, `contains`, `startsWith`, and `endsWith`.
+
+LeetCode practice:
+
+- Valid Palindrome
+- First Unique Character in a String
+- Longest Common Prefix
+
+Valid Palindrome was almost done by myself, with mainly syntax mistakes. First
+Unique Character was done by myself using a HashMap frequency count. Longest
+Common Prefix was not done by myself, so I need to revisit it carefully.
+
+Pending for Day 7 revision:
+
+- Longest Substring Without Repeating Characters
+- Group Anagrams
+
+Handwritten notes for Day 6 are in `notes/my_notes/day 6 dsa.pdf`.
