@@ -16,6 +16,7 @@ basics properly before moving to optimized approaches.
 | 04 | Binary search, bounds, and sorted-array search patterns | Done |
 | 05 | Recursion basics, recursive patterns, and first backtracking exposure | Done, backtracking needs revision |
 | 06 | String patterns, string methods, and string practice problems | Done for now, two problems pending |
+| 07 | Revision of arrays, HashMap, two pointers, strings, binary search, and recursion | Done, backtracking postponed |
 
 ## Folder setup
 
@@ -164,3 +165,35 @@ Pending for Day 7 revision:
 - Group Anagrams
 
 Handwritten notes for Day 6 are in `notes/my_notes/day 6 dsa.pdf`.
+
+## Day 7
+
+Day 7 was a revision day with no new lectures. I focused on re-solving problems
+from earlier topics and checking how much I could recall from memory.
+
+Revision practice:
+
+- Running Sum of 1D Array
+- Contains Duplicate
+- Two Sum
+- Palindrome Number
+- Majority Element
+- Find the Difference
+- Move Zeroes
+- Valid Anagram
+- Squares of a Sorted Array
+- Valid Palindrome
+- Binary Search
+- Fibonacci Number
+- Power of Two
+- Reverse String
+
+Main learning: I can usually identify the correct pattern now. HashMap
+frequency counting, HashSet existence checks, two pointers, binary search, and
+basic recursion feel more natural than before. Most mistakes were syntax,
+control flow, or implementation details rather than not knowing the pattern.
+
+Backtracking and Subsets are still weak, so I postponed Subsets until a proper
+backtracking day.
+
+No handwritten notes for Day 7.

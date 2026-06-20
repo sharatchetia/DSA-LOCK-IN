@@ -228,3 +228,69 @@ Pending for Day 07 revision:
 
 - Longest Substring Without Repeating Characters
 - Group Anagrams
+
+## Day 07
+
+### What I studied
+
+- Revision of earlier topics
+- Prefix sum
+- HashSet usage
+- HashMap frequency counting
+- Two pointers
+- String problems
+- Binary search
+- Basic recursion
+
+### Practice
+
+- Running Sum of 1D Array
+- Contains Duplicate
+- Two Sum
+- Palindrome Number
+- Majority Element
+- Find the Difference
+- Move Zeroes
+- Valid Anagram
+- Squares of a Sorted Array
+- Valid Palindrome
+- Binary Search
+- Fibonacci Number
+- Power of Two
+- Reverse String
+
+### My notes
+
+Day 07 was a revision day. I did not start any new lectures or new topics. The
+main goal was to practice problems from previous days and check which patterns
+I could recall without looking again.
+
+For arrays and prefix sum, I revised Running Sum and remembered that
+`prefix[0]` needs to be initialized first before using
+`prefix[i] = prefix[i - 1] + nums[i]`.
+
+For HashSet, I revised Contains Duplicate. The main pattern is to ask whether I
+have already seen the current value. HashSet is useful when only existence
+matters.
+
+For HashMap, I revised Two Sum, Majority Element, Find the Difference, and
+Valid Anagram. The frequency-counting pattern is becoming more natural now,
+especially when duplicates matter.
+
+For two pointers, I revised Move Zeroes, Sorted Squares, Valid Palindrome, and
+Reverse String. I understood the difference between a scanning pointer and a
+write pointer more clearly in Move Zeroes.
+
+For binary search, I revised the exact search pattern with `low`, `high`, and
+`mid`. I skipped some related binary search questions because the main concept
+was already understood: many of them are about finding the first position where
+a condition becomes true.
+
+For recursion, I revised Fibonacci and Power of Two. Power of Two reminded me
+that success base cases should come before broader failure cases when the order
+matters.
+
+Backtracking and Subsets are still not comfortable. I postponed Subsets until I
+learn backtracking properly.
+
+No handwritten notes for Day 07.
