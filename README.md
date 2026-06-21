@@ -17,6 +17,7 @@ basics properly before moving to optimized approaches.
 | 05 | Recursion basics, recursive patterns, and first backtracking exposure | Done, backtracking needs revision |
 | 06 | String patterns, string methods, and string practice problems | Done for now, two problems pending |
 | 07 | Revision of arrays, HashMap, two pointers, strings, binary search, and recursion | Done, backtracking postponed |
+| 08 | Sorting algorithms, merge sort, and sorting practice problems | Done, more dry runs needed |
 
 ## Folder setup
 
@@ -197,3 +198,27 @@ Backtracking and Subsets are still weak, so I postponed Subsets until a proper
 backtracking day.
 
 No handwritten notes for Day 7.
+
+## Day 8
+
+On Day 8, I focused on sorting. I practiced merge sort recursively and also
+covered bubble sort, insertion sort, selection sort, and quick sort notes.
+
+Practice:
+
+- Merge Sort
+- Sort Array By Parity
+- Sort Colors
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+
+Main learning: merge sort depends on dividing the array recursively and then
+merging the sorted parts. For the two-pointer sorting problems, I did a lot of
+dry runs to understand how the pointers move and when swaps should happen.
+
+Handwritten notes for Day 8 are in `notes/my_notes/day 8 dsa.pdf`.
+Reference PDFs added for Day 8:
+
+- `notes/apna_college_notes/Merge Sort (2).pdf`
+- `notes/apna_college_notes/Quick Sort (1).pdf`

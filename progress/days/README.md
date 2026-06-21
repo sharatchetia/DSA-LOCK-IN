@@ -294,3 +294,52 @@ Backtracking and Subsets are still not comfortable. I postponed Subsets until I
 learn backtracking properly.
 
 No handwritten notes for Day 07.
+
+## Day 08
+
+### What I studied
+
+- Sorting algorithms
+- Merge sort using recursion
+- Divide and conquer
+- Bubble sort
+- Insertion sort
+- Selection sort
+- Quick sort notes
+- Two-pointer sorting patterns
+
+### Practice
+
+- Merge Sort
+- Sort Array By Parity
+- Sort Colors
+
+### My notes
+
+Day 08 was focused on sorting. I practiced merge sort recursively and wrote the
+divide and conquer structure with `divide` and `conquer` methods.
+
+The main merge sort idea is to keep dividing the array until each part is small
+enough, then merge the sorted parts back together. I practiced it after
+memorising the pattern and need more dry runs to make it fully natural.
+
+I also practiced Sort Array By Parity using two pointers. The important part
+was handling all pointer cases carefully:
+
+- even on left and odd on right
+- odd on left and even on right
+- even on both sides
+- odd on both sides
+
+For Sort Colors, I practiced the three-pointer Dutch National Flag pattern with
+`l`, `m`, and `h`. I was almost able to do it by myself and did a lot of dry
+runs to understand when each pointer should move.
+
+I also covered bubble sort, insertion sort, and selection sort.
+
+Handwritten notes for Day 08 are in `notes/my_notes/day 8 dsa.pdf`.
+
+Reference PDFs added:
+
+- `notes/apna_college_notes/Merge Sort (2).pdf`
+- `notes/apna_college_notes/Quick Sort (1).pdf`

@@ -47,3 +47,73 @@ public class Day08 {
         
     }
 }
+
+
+
+
+
+// leet 905
+class Solution {
+    public int[] sortArrayByParity(int[] nums) {
+        int low  = 0;
+        int high = nums.length-1;
+
+        while(low<=high){
+            //case 1 even - odd
+            if(nums[low]%2==0 && nums[high]%2!=0){
+                low++;
+                high--;
+            }
+            //case 2 odd - even
+            else if(nums[low]%2!=0 && nums[high]%2==0){
+                int temp = nums[low];
+                nums[low] = nums[high];
+                nums[high] = temp;
+                low++;
+                high--;
+            }
+            //case 3 even - even
+            else if(nums[low]%2==0 && nums[high]%2==0){
+                low++;
+            }
+            //case 4 odd - odd
+            else{
+                high--;
+            }
+        }
+        return nums;
+    }
+}
+
+
+// leet 75 medium almost done by myself
+
+class Solution2 {
+    public void sortColors(int[] nums) {
+        int l = 0;
+        int m = 0;
+        int h = nums.length-1;
+        while(m<=h){
+            if(nums[m] == 2){
+                int temp = nums[h];
+                nums[h] = nums[m];
+                nums[m] = temp;
+                h--;
+            }else if(nums[m] == 0){
+                int temp = nums[l];
+                nums[l] = nums[m];
+                nums[m] = temp;
+                l++;
+                m++;
+            }else{
+                m++;
+            }
+        }
+        return;
+    }
+}
+
+// did a lot of dry run for all this
+
+
+// done bubble, insertion and selection sort as well 
