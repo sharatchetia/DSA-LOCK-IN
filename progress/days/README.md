@@ -343,3 +343,69 @@ Reference PDFs added:
 
 - `notes/apna_college_notes/Merge Sort (2).pdf`
 - `notes/apna_college_notes/Quick Sort (1).pdf`
+
+## Day 09
+
+### What I studied
+
+- Backtracking basics and why it needs more preparation
+- OOP revision
+- Classes and objects
+- Object creation using `new`
+- Constructors
+- `this` keyword
+- Copy constructor basics
+- Constructor execution flow
+- Inheritance basics
+- Polymorphism basics
+
+### Practice
+
+- Simple `Pen` class example
+- Simple `Student` class example
+- Length of Last Word
+
+### My notes
+
+I started Day 09 with backtracking, but I realized that I need to understand
+more Java foundations first. Backtracking examples use things like
+`ArrayList`, `List`, `List<List<Integer>>`, `add()`, and `remove()`, so I am
+postponing proper backtracking until after Collections Framework, Linked List,
+Stack, and Queue.
+
+The backtracking idea I understood today is that each element can create a
+choice:
+
+- take it
+- do not take it
+
+I also understood why `idx` is used, why a base case can be
+`idx == nums.length`, and why backtracking needs both making and undoing a
+choice.
+
+After that, I switched to OOP revision. I practiced creating simple classes and
+objects, using instance variables, calling methods, and using `this` to refer
+to the current object's fields.
+
+The main OOP lessons today were:
+
+- constructors run automatically when an object is created
+- `new Student()` creates an object and calls the constructor
+- copy constructors create a new object with the same data
+- polymorphism allows the same method call to behave differently depending on
+  the object
+
+OOP took longer than expected, and copy constructors were confusing at first.
+
+Tomorrow's plan:
+
+- Finish remaining OOP topics
+- Study abstraction and interfaces
+- Start Collections Framework
+- Learn `ArrayList`, `List`, `add()`, `get()`, `remove()`, and `size()`
+
+Handwritten notes for Day 09 are in `notes/my_notes/day 9 dsa.pdf`.
+
+Reference PDF added:
+
+- `notes/apna_college_notes/OOPS in Java.pdf`

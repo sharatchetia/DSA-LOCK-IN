@@ -18,6 +18,7 @@ basics properly before moving to optimized approaches.
 | 06 | String patterns, string methods, and string practice problems | Done for now, two problems pending |
 | 07 | Revision of arrays, HashMap, two pointers, strings, binary search, and recursion | Done, backtracking postponed |
 | 08 | Sorting algorithms, merge sort, and sorting practice problems | Done, more dry runs needed |
+| 09 | OOP revision and backtracking reflection | Done, Collections Framework pending |
 
 ## Folder setup
 
@@ -222,3 +223,41 @@ Reference PDFs added for Day 8:
 
 - `notes/apna_college_notes/Merge Sort (2).pdf`
 - `notes/apna_college_notes/Quick Sort (1).pdf`
+
+## Day 9
+
+On Day 9, I started with backtracking but decided to postpone it after realizing
+that many examples depend on Collections Framework syntax like `ArrayList`,
+`List`, and `List<List<Integer>>`. I understood the basic take / do not take
+decision-tree idea, `idx`, base cases, and making / undoing choices, but I need
+more Java foundation before going deeper.
+
+I switched to OOP revision for the day.
+
+Topics covered:
+
+- Class vs object
+- Object creation using `new`
+- Constructor basics
+- Default constructor
+- No-argument constructor
+- Parameterized constructor
+- Copy constructor basics
+- `this` keyword
+- Constructor execution flow
+- Inheritance started
+- Basic polymorphism
+
+Practice:
+
+- Simple `Pen` and `Student` class examples
+- Length of Last Word
+
+Main learning: constructors run automatically when an object is created, and
+copy constructors create a new object with the same data instead of pointing to
+the same object. OOP took longer than expected, but the basics are improving.
+
+Handwritten notes for Day 9 are in `notes/my_notes/day 9 dsa.pdf`.
+Reference PDF added for Day 9:
+
+- `notes/apna_college_notes/OOPS in Java.pdf`
