@@ -19,6 +19,7 @@ basics properly before moving to optimized approaches.
 | 07 | Revision of arrays, HashMap, two pointers, strings, binary search, and recursion | Done, backtracking postponed |
 | 08 | Sorting algorithms, merge sort, and sorting practice problems | Done, more dry runs needed |
 | 09 | OOP revision and backtracking reflection | Done, Collections Framework pending |
+| 10 | OOP fundamentals and first design problems | Done |
 
 ## Folder setup
 
@@ -261,3 +262,37 @@ Handwritten notes for Day 9 are in `notes/my_notes/day 9 dsa.pdf`.
 Reference PDF added for Day 9:
 
 - `notes/apna_college_notes/OOPS in Java.pdf`
+
+## Day 10
+
+On Day 10, I completed the OOP fundamentals from Apna College and applied them
+to LeetCode design problems. I worked on the Parking System design problem,
+where I had to create a class that simulates a parking lot with different car
+sizes.
+
+Key OOP Realizations:
+
+- **Constructor vs Methods**: Constructors run once to initialize state, while
+  methods run many times and modify state. I initially confused constructors
+  with the `main()` function.
+- **The `this` keyword**: Understood that `this.big = big` means "object's big
+  = parameter big". It refers to the current object's variable, not creating a
+  new one.
+- **Object Independence**: Each object created has its own independent data.
+  Creating two `ParkingSystem` objects with different capacities doesn't affect
+  each other.
+- **Method Overloading and Overriding**: Compiled-time polymorphism through
+  method overloading and runtime polymorphism through method overriding.
+
+LeetCode practice:
+
+- Design Parking System (#1603) - First OOP design problem
+- Number of Students Unable to Eat Lunch (#1700) - Learned that order doesn't
+  matter, only counts matter
+
+Main learning: OOP design problems require thinking about object state,
+initialization, and methods that modify that state. The Parking System problem
+was the first real-world style design problem I solved, and it helped solidify
+how constructors and instance variables work together.
+
+Handwritten notes for Day 10 are in `notes/my_notes/day 10 dsa.pdf`.
