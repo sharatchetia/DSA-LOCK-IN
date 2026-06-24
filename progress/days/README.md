@@ -409,3 +409,55 @@ Handwritten notes for Day 09 are in `notes/my_notes/day 9 dsa.pdf`.
 Reference PDF added:
 
 - `notes/apna_college_notes/OOPS in Java.pdf`
+
+## Day 11
+
+### What I studied
+
+- ArrayList basics
+- Adding elements (add), inserting at index (add with index)
+- Getting elements (get), setting elements (set)
+- Removing elements (remove)
+- Size of ArrayList (size)
+- Looping through an ArrayList
+- Sorting with Collections.sort
+- Java Collections Framework introduction (names only)
+
+### Practice
+
+- Kids With the Greatest Number of Candies
+- Baseball Game (Cal Points)
+
+### LeetCode practice
+
+- Kids With the Greatest Number of Candies — found the maximum candies, then
+  checked for each kid if candies[i] + extraCandies >= max
+- Baseball Game — used ArrayList to simulate scorekeeping with operations:
+  integer (add the score), "C" (remove last score), "D" (double last score),
+  "+" (sum of last two scores)
+
+### My notes
+
+Day 11 was focused on ArrayList in Java. I learned the basic operations: how to
+add, get, set, remove elements, how to loop, and how to sort using
+Collections.sort.
+
+Kids With the Greatest Number of Candies was straightforward: find the max in a
+single pass, then check each element with the extra candies added.
+
+Baseball Game was more interesting because it tested my understanding of
+ArrayList operations in a real problem. The main idea was to process string
+operations one by one and use the ArrayList as a stack-like structure. The "+"
+case was tricky at first because I had to access the last two elements using
+`list.get(list.size() - 2)` and `list.get(list.size() - 1)`.
+
+I also started learning about the Java Collections Framework. For now, I have
+only learned the names of the main interfaces and classes. I will dig deeper
+into them in the coming days.
+
+Handwritten notes for Day 11 are in `notes/my_notes/day 11 dsa.pdf`.
+
+Reference PDFs added:
+
+- `notes/apna_college_notes/ArrayList in Java.pdf`
+- `notes/apna_college_notes/Collection Framework - Java.pdf`
