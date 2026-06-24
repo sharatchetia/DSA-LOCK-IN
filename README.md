@@ -20,6 +20,7 @@ basics properly before moving to optimized approaches.
 | 08 | Sorting algorithms, merge sort, and sorting practice problems | Done, more dry runs needed |
 | 09 | OOP revision and backtracking reflection | Done, Collections Framework pending |
 | 10 | OOP fundamentals and first design problems | Done |
+| 11 | ArrayList, Collections Framework basics, practice problems | Done |
 
 ## Folder setup
 
@@ -296,3 +297,29 @@ was the first real-world style design problem I solved, and it helped solidify
 how constructors and instance variables work together.
 
 Handwritten notes for Day 10 are in `notes/my_notes/day 10 dsa.pdf`.
+
+## Day 11
+
+On Day 11, I focused on ArrayList in Java. I learned the basic operations: add,
+get, set, remove, size, looping, and sorting with `Collections.sort`. I also
+started learning about the Java Collections Framework (names of main interfaces
+and classes so far).
+
+LeetCode practice:
+
+- Kids With the Greatest Number of Candies — found the maximum candies, then
+  checked for each kid if `candies[i] + extraCandies >= max`
+- Baseball Game (Cal Points) — used ArrayList to simulate scorekeeping with
+  operations: integer (add the score), "C" (remove last score), "D" (double
+  last score), "+" (sum of last two scores)
+
+Main learning: ArrayList operations feel similar to working with dynamic arrays.
+The Baseball Game problem was a good test of using `list.get(list.size() - 2)`
+and `list.get(list.size() - 1)` to access the last two elements. The "+" case
+was tricky at first but made sense with practice.
+
+Handwritten notes for Day 11 are in `notes/my_notes/day 11 dsa.pdf`.
+Reference PDFs added for Day 11:
+
+- `notes/apna_college_notes/ArrayList in Java.pdf`
+- `notes/apna_college_notes/Collection Framework - Java.pdf`
