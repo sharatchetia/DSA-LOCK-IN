@@ -21,6 +21,7 @@ basics properly before moving to optimized approaches.
 | 09 | OOP revision and backtracking reflection | Done, Collections Framework pending |
 | 10 | OOP fundamentals and first design problems | Done |
 | 11 | ArrayList, Collections Framework basics, practice problems | Done |
+| 12 | Linked list prep and Roman numeral practice | Done |
 
 ## Folder setup
 
@@ -323,3 +324,23 @@ Reference PDFs added for Day 11:
 
 - `notes/apna_college_notes/ArrayList in Java.pdf`
 - `notes/apna_college_notes/Collection Framework - Java.pdf`
+
+## Day 12
+
+On Day 12, I practiced Roman numeral conversion and started reviewing linked
+list concepts. My code includes a solution for converting Roman numerals to
+integers using a `HashMap` and a common subtractive rule for values like `IV`
+and `IX`.
+
+LeetCode practice:
+
+- Roman to Integer — mapped Roman characters to values, then subtracted the
+  current value when it was less than the next value
+
+Main learning: The Roman numeral problem can be solved cleanly by comparing the
+current character with the next one, and subtracting when the current value is
+less. I also noted that linked list learning was interrupted by fatigue, so I
+am taking the next step slowly.
+
+Handwritten notes for Day 12 are not available yet.
+
