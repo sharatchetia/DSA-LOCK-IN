@@ -21,7 +21,7 @@ basics properly before moving to optimized approaches.
 | 09 | OOP revision and backtracking reflection | Done, Collections Framework pending |
 | 10 | OOP fundamentals and first design problems | Done |
 | 11 | ArrayList, Collections Framework basics, practice problems | Done |
-| 12 | Linked list prep and Roman numeral practice | Done |
+| 12 | Rest day, attempted linked list review, copied code for streak | Done |
 
 ## Folder setup
 
@@ -327,20 +327,16 @@ Reference PDFs added for Day 11:
 
 ## Day 12
 
-On Day 12, I practiced Roman numeral conversion and started reviewing linked
-list concepts. My code includes a solution for converting Roman numerals to
-integers using a `HashMap` and a common subtractive rule for values like `IV`
-and `IX`.
+Day 12 was a recovery/review day. I was feeling burnt out and only attempted to
+start linked list review, but I couldn’t focus properly. I copied a Roman numeral
+solution to keep the streak going, but I did not truly learn or solve the
+problem on my own.
 
-LeetCode practice:
+What happened:
 
-- Roman to Integer — mapped Roman characters to values, then subtracted the
-  current value when it was less than the next value
-
-Main learning: The Roman numeral problem can be solved cleanly by comparing the
-current character with the next one, and subtracting when the current value is
-less. I also noted that linked list learning was interrupted by fatigue, so I
-am taking the next step slowly.
+- Tried to learn linked list concepts, but could not concentrate.
+- Copied a Roman numeral conversion solution for the streak.
+- Took the day as a rest/recovery day and will continue once I feel better.
 
 Handwritten notes for Day 12 are not available yet.
 
