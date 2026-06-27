@@ -22,7 +22,7 @@ basics properly before moving to optimized approaches.
 | 10 | OOP fundamentals and first design problems | Done |
 | 11 | ArrayList, Collections Framework basics, practice problems | Done |
 | 12 | Rest day, attempted linked list review, copied code for streak | Done |
-| X | Recovery day, one easy streak problem | Done |
+| X | Recovery day after skipping another day, one easy streak problem | Done |
 
 ## Folder setup
 
@@ -343,15 +343,16 @@ Handwritten notes for Day 12 are not available yet.
 
 ## Day X
 
-Day X was a recovery day. I felt burnt out and did not make progress on new
-concepts. To keep the streak alive, I copied one easy LeetCode solution and
-focused on resting rather than forcing more learning.
+Day X was a recovery day after skipping another day. I felt burnt out and did
+not make progress on new concepts. To keep the streak alive, I copied one easy
+LeetCode solution and focused on resting rather than forcing more learning.
 
 What happened:
 
+- Skipped another day due to low energy and lack of focus.
 - Did not learn a new topic or solve a problem independently.
 - Copied a simple solution to maintain consistency.
-- Planned to resume Linked Lists with a fresh mind tomorrow.
+- Planned to resume Linked Lists with a fresh mind later.
 
 Handwritten notes for Day X are not available yet.
 
