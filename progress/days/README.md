@@ -410,6 +410,34 @@ Reference PDF added:
 
 - `notes/apna_college_notes/OOPS in Java.pdf`
 
+## Day 10
+
+### What I studied
+
+- OOP fundamentals (constructors, `this`, instance variables)
+- Design-style problems and thinking about object state
+
+### Practice
+
+- Design Parking System (#1603)
+- Number of Students Unable to Eat Lunch (#1700)
+
+### LeetCode practice
+
+- Design Parking System — implemented a `ParkingSystem` class with instance
+  variables and a constructor to initialize capacities
+- Number of Students Unable to Eat Lunch — used counting instead of full
+  simulation to determine how many students can't eat
+
+### My notes
+
+Day 10 focused on OOP fundamentals and the first real OOP design problem. I
+learned how constructors initialize object state and how methods modify that
+state. Design problems required thinking about object lifetime and proper use
+of instance variables.
+
+Handwritten notes for Day 10 are in `notes/my_notes/day 10 dsa.pdf`.
+
 ## Day 11
 
 ### What I studied
@@ -461,3 +489,34 @@ Reference PDFs added:
 
 - `notes/apna_college_notes/ArrayList in Java.pdf`
 - `notes/apna_college_notes/Collection Framework - Java.pdf`
+
+## Day 12
+
+Day 12 was a recovery/review day. I was feeling burnt out and attempted to
+start linked list review but could not concentrate. I copied a Roman numeral
+solution to keep the streak, but I did not solve the problem independently.
+
+What happened:
+
+- Attempted linked list review but could not focus.
+- Copied a Roman numeral conversion solution for streak maintenance.
+- Took the day to rest and recover.
+
+Handwritten notes for Day 12 are not available yet.
+
+## Day X
+
+Day X was a recovery day after skipping another day. I skipped an additional
+day due to low energy and did not make progress on new concepts. To keep the
+streak alive, I copied an easy LeetCode solution (solution copied for streak
+maintenance) and focused on rest rather than forced study.
+
+What happened:
+
+- Skipped another day due to low energy and lack of focus.
+- Copied an easy LeetCode solution to maintain the streak (not solved
+  independently).
+- Took the day to rest and recover.
+- Planned to resume Linked Lists when ready.
+
+Handwritten notes for Day X are not available yet.
