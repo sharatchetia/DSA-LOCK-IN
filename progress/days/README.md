@@ -520,3 +520,48 @@ What happened:
 - Planned to resume Linked Lists when ready.
 
 Handwritten notes for Day X are not available yet.
+
+## Day 16
++
++### What I studied
++
++- Linked list fundamentals
++- Node class and `next` pointer
++- `addFirst` method implementation
++- Traversal and `printList()` method
++
++### Practice
++
++- Built a custom linked list with `Node` and `LinkedList` classes
++- Implemented `addFirst` and `printList()`
++
++### My notes
++
++Day 16 was focused on the basics of singly linked lists in Java. I wrote a
++custom `Node` class, learned how `next` pointers connect nodes, and built an
++`addFirst` method to insert at the head.
++
++The `printList()` method helped me verify the list contents by traversing
++from the head to the end.
++
++I also started looking at LeetCode 1290, but I did not complete it fully on my
++own yet.
++
++Handwritten notes for Day 16 are not available yet.
++
++## Day X
+
+Day X was a recovery day after skipping another day. I skipped an additional
+day due to low energy and did not make progress on new concepts. To keep the
+streak alive, I copied an easy LeetCode solution (solution copied for streak
+maintenance) and focused on rest rather than forced study.
+
+What happened:
+
+- Skipped another day due to low energy and lack of focus.
+- Copied an easy LeetCode solution to maintain the streak (not solved
+  independently).
+- Took the day to rest and recover.
+- Planned to resume Linked Lists when ready.
+
+Handwritten notes for Day X are not available yet.

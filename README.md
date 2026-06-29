@@ -23,6 +23,7 @@ basics properly before moving to optimized approaches.
 | 11 | ArrayList, Collections Framework basics, practice problems | Done |
 | 12 | Rest day, attempted linked list review, copied code for streak | Done |
 | X | Recovery day; skipped another day, copied an easy LeetCode solution | Done |
+| 16 | Linked list fundamentals and print method | Done |
 
 ## Folder setup
 
