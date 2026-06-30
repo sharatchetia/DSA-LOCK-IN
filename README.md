@@ -22,7 +22,7 @@ basics properly before moving to optimized approaches.
 | 10 | OOP fundamentals and first design problems | Done |
 | 11 | ArrayList, Collections Framework basics, practice problems | Done |
 | 12 | Rest day, attempted linked list review, copied code for streak | Done |
-| X | Recovery day; skipped another day, copied an easy LeetCode solution | Done |
+| X | Recovery / skipped days (Days 13, 14, 15) after burnout; copied an easy LeetCode solution | Done |
 | 16 | Linked list fundamentals and print method | Done |
 | 16C | Day 16 continuation: linked list methods and notes | Done |
 
@@ -345,18 +345,19 @@ Handwritten notes for Day 12 are not available yet.
 
 ## Day X
 
-Day X was a recovery day after skipping another day. I skipped an additional
-day due to burnout and did not make progress on new concepts. To keep the
-streak alive, I copied an easy LeetCode solution (solution copied for streak
-maintenance) and focused on rest rather than forced study.
+Days 13, 14, and 15 are not missing. They are grouped under this Day X entry
+as recovery/skipped days after burnout. I did not make meaningful progress on
+new concepts during that period, so I treated them as a rest and recovery phase.
+To keep the streak alive, I copied an easy LeetCode solution for streak
+maintenance and focused on rest rather than forced study.
 
 What happened:
 
-- Skipped another day due to low energy and lack of focus.
-- Copied an easy LeetCode solution to maintain the streak (not solved
+- Days 13, 14, and 15 are intentionally covered under this Day X recovery entry.
+- I was low on energy and focus, so I skipped study for those days.
+- I copied an easy LeetCode solution to maintain the streak (not solved
   independently).
-- Took the day to rest and recover.
-- Planned to resume Linked Lists when ready.
+- I resumed Linked Lists later when I felt better.
 
 Handwritten notes for Day X are not available yet.
 
