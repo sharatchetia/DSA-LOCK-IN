@@ -24,6 +24,7 @@ basics properly before moving to optimized approaches.
 | 12 | Rest day, attempted linked list review, copied code for streak | Done |
 | X | Recovery day; skipped another day, copied an easy LeetCode solution | Done |
 | 16 | Linked list fundamentals and print method | Done |
+| 16C | Day 16 continuation: linked list methods and notes | Done |
 
 ## Folder setup
 
@@ -358,6 +359,25 @@ What happened:
 - Planned to resume Linked Lists when ready.
 
 Handwritten notes for Day X are not available yet.
+
+## Day 16C
+
+This is the continuation of Day 16. I continued working on linked list basics,
+added more practice with linked list methods, and also reviewed my handwritten
+notes and Apna College notes to strengthen the concept.
+
+What I did:
+
+- Continued practicing linked list structure and traversal.
+- Worked on additional linked list methods beyond the basic `addFirst()` and
+  `printList()` steps.
+- Referred to my handwritten notes and Apna College notes for revision.
+- Kept the continuation focused on improving confidence with linked list logic.
+
+Handwritten notes for Day 16C are in `notes/my_notes/day 16 dsa.pdf` if available.
+Reference PDFs added for Day 16C:
+
+- `notes/apna_college_notes/Linked List.pdf`
 
 ## Day 16
 

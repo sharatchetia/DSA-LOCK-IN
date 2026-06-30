@@ -522,34 +522,58 @@ What happened:
 Handwritten notes for Day X are not available yet.
 
 ## Day 16
-+
-+### What I studied
-+
-+- Linked list fundamentals
-+- Node class and `next` pointer
-+- `addFirst` method implementation
-+- Traversal and `printList()` method
-+
-+### Practice
-+
-+- Built a custom linked list with `Node` and `LinkedList` classes
-+- Implemented `addFirst` and `printList()`
-+
-+### My notes
-+
-+Day 16 was focused on the basics of singly linked lists in Java. I wrote a
-+custom `Node` class, learned how `next` pointers connect nodes, and built an
-+`addFirst` method to insert at the head.
-+
-+The `printList()` method helped me verify the list contents by traversing
-+from the head to the end.
-+
-+I also started looking at LeetCode 1290, but I did not complete it fully on my
-+own yet.
-+
-+Handwritten notes for Day 16 are not available yet.
-+
-+## Day X
+
+### What I studied
+
+- Linked list fundamentals
+- Node class and `next` pointer
+- `addFirst` method implementation
+- Traversal and `printList()` method
+
+### Practice
+
+- Built a custom linked list with `Node` and `LinkedList` classes
+- Implemented `addFirst` and `printList()`
+
+### My notes
+
+Day 16 was focused on the basics of singly linked lists in Java. I wrote a
+custom `Node` class, learned how `next` pointers connect nodes, and built an
+`addFirst` method to insert at the head.
+
+The `printList()` method helped me verify the list contents by traversing
+from the head to the end.
+
+I also started looking at LeetCode 1290, but I did not complete it fully on my
+own yet.
+
+Handwritten notes for Day 16 are not available yet.
+
+## Day 16C
+
+### What I studied
+
+- Continued linked list practice beyond the basic Day 16 work
+- Reviewed handwritten notes and Apna College notes
+- Strengthened understanding of linked list methods and traversal
+
+### Practice
+
+- Continued the linked list continuation work from Day 16
+- Revisited the concepts from my notes and reference material
+
+### My notes
+
+This is a continuation of Day 16. I continued working on linked list basics,
+added more practice with linked list methods, and reviewed my handwritten notes
+and Apna College notes to strengthen the concept.
+
+The continuation was focused on improving confidence with linked list logic and
+making the concepts feel more natural.
+
+Handwritten notes for Day 16C are not available yet.
+
+## Day X
 
 Day X was a recovery day after skipping another day. I skipped an additional
 day due to low energy and did not make progress on new concepts. To keep the
