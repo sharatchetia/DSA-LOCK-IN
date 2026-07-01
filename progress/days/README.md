@@ -574,24 +574,6 @@ making the concepts feel more natural.
 
 Handwritten notes for Day 16C are not available yet.
 
-## Day X
-
-Days 13, 14, and 15 are not missing. They are grouped under this Day X entry
-as recovery/skipped days after burnout. I did not make meaningful progress on
-new concepts during that period, so I treated them as a rest and recovery phase.
-To keep the streak alive, I copied an easy LeetCode solution for streak
-maintenance and focused on rest rather than forced study.
-
-What happened:
-
-- Days 13, 14, and 15 are intentionally covered under this Day X recovery entry.
-- I was low on energy and focus, so I skipped study for those days.
-- I copied an easy LeetCode solution to maintain the streak (not solved
-  independently).
-- I resumed Linked Lists later when I felt better.
-
-Handwritten notes for Day X are not available yet.
-
 ## Day 17
 
 ### What I studied

@@ -362,25 +362,24 @@ What happened:
 
 Handwritten notes for Day X are not available yet.
 
-## Day 17
+## Day 16
 
-On Day 17, I moved further into linked lists and worked on reversing a singly
-linked list. I learned both an iterative approach and a recursive approach.
+On Day 16, I worked on linked list basics in Java. I created a custom `Node`
+class and a `LinkedList` class with an `addFirst()` method and a `printList()`
+method to traverse the list.
 
 Key learnings:
 
-- The iterative reverse uses previous, current, and next pointers.
-- The recursive reverse breaks the problem into a smaller linked list and then
-  reconnects the nodes.
-- The head of the list must be updated after reversing.
+- A linked list node stores data and a reference to the next node.
+- `addFirst()` inserts a new node at the head of the list.
+- Traversing a linked list requires iterating until the current node is null.
 
 Practice:
 
-- Reversed a linked list using the iterative pointer method.
-- Tried the recursive reversal approach.
-- Reviewed LeetCode 206 and noted the logic behind the reversal.
+- Built and printed a singly linked list using `addFirst()`.
+- Started reviewing LeetCode 1290 but did not complete it fully on my own.
 
-Handwritten notes for Day 17 are not available yet.
+Handwritten notes for Day 16 are not available yet.
 
 ## Day 16C
 
@@ -401,7 +400,25 @@ Reference PDFs added for Day 16C:
 
 - `notes/apna_college_notes/Linked List.pdf`
 
-## Day 16
+## Day 17
+
+On Day 17, I moved further into linked lists and worked on reversing a singly
+linked list. I learned both an iterative approach and a recursive approach.
+
+Key learnings:
+
+- The iterative reverse uses previous, current, and next pointers.
+- The recursive reverse breaks the problem into a smaller linked list and then
+  reconnects the nodes.
+- The head of the list must be updated after reversing.
+
+Practice:
+
+- Reversed a linked list using the iterative pointer method.
+- Tried the recursive reversal approach.
+- Reviewed LeetCode 206 and noted the logic behind the reversal.
+
+Handwritten notes for Day 17 are not available yet.
 
 On Day 16, I worked on linked list basics in Java. I created a custom `Node`
 class and a `LinkedList` class with an `addFirst()` method and a `printList()`
