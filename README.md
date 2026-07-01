@@ -418,22 +418,5 @@ Practice:
 - Tried the recursive reversal approach.
 - Reviewed LeetCode 206 and noted the logic behind the reversal.
 
-Handwritten notes for Day 17 are not available yet.
-
-On Day 16, I worked on linked list basics in Java. I created a custom `Node`
-class and a `LinkedList` class with an `addFirst()` method and a `printList()`
-method to traverse the list.
-
-Key learnings:
-
-- A linked list node stores data and a reference to the next node.
-- `addFirst()` inserts a new node at the head of the list.
-- Traversing a linked list requires iterating until the current node is null.
-
-Practice:
-
-- Built and printed a singly linked list using `addFirst()`.
-- Started reviewing LeetCode 1290 but did not complete it fully on my own.
-
-Handwritten notes for Day 16 are not available yet.
+Handwritten notes for Day 17 are in `notes/my_notes/day 17 dsa.pdf`.
 
