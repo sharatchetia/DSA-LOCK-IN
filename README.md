@@ -25,6 +25,7 @@ basics properly before moving to optimized approaches.
 | X | Recovery / skipped days (Days 13, 14, 15) after burnout; copied an easy LeetCode solution | Done |
 | 16 | Linked list fundamentals and print method | Done |
 | 16C | Day 16 continuation: linked list methods and notes | Done |
+| 17 | Reversing linked lists (iterative and recursive) | Done |
 
 ## Folder setup
 
@@ -360,6 +361,26 @@ What happened:
 - I resumed Linked Lists later when I felt better.
 
 Handwritten notes for Day X are not available yet.
+
+## Day 17
+
+On Day 17, I moved further into linked lists and worked on reversing a singly
+linked list. I learned both an iterative approach and a recursive approach.
+
+Key learnings:
+
+- The iterative reverse uses previous, current, and next pointers.
+- The recursive reverse breaks the problem into a smaller linked list and then
+  reconnects the nodes.
+- The head of the list must be updated after reversing.
+
+Practice:
+
+- Reversed a linked list using the iterative pointer method.
+- Tried the recursive reversal approach.
+- Reviewed LeetCode 206 and noted the logic behind the reversal.
+
+Handwritten notes for Day 17 are not available yet.
 
 ## Day 16C
 

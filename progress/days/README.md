@@ -576,17 +576,44 @@ Handwritten notes for Day 16C are not available yet.
 
 ## Day X
 
-Day X was a recovery day after skipping another day. I skipped an additional
-day due to low energy and did not make progress on new concepts. To keep the
-streak alive, I copied an easy LeetCode solution (solution copied for streak
-maintenance) and focused on rest rather than forced study.
+Days 13, 14, and 15 are not missing. They are grouped under this Day X entry
+as recovery/skipped days after burnout. I did not make meaningful progress on
+new concepts during that period, so I treated them as a rest and recovery phase.
+To keep the streak alive, I copied an easy LeetCode solution for streak
+maintenance and focused on rest rather than forced study.
 
 What happened:
 
-- Skipped another day due to low energy and lack of focus.
-- Copied an easy LeetCode solution to maintain the streak (not solved
+- Days 13, 14, and 15 are intentionally covered under this Day X recovery entry.
+- I was low on energy and focus, so I skipped study for those days.
+- I copied an easy LeetCode solution to maintain the streak (not solved
   independently).
-- Took the day to rest and recover.
-- Planned to resume Linked Lists when ready.
+- I resumed Linked Lists later when I felt better.
 
 Handwritten notes for Day X are not available yet.
+
+## Day 17
+
+### What I studied
+
+- Reversing a Linked List
+- Iterative reversal using pointers
+- Recursive reversal approach
+
+### Practice
+
+- Reversed a custom linked list with the iterative method
+- Tried the recursive reversal approach
+- Reviewed LeetCode 206 basics
+
+### My notes
+
+Day 17 was about reversing linked lists. I learned the iterative method using
+`prev`, `curr`, and `next` pointers, and I also tried the recursive approach.
+The main idea was to reassign pointers carefully so the list is reversed
+without losing the rest of the nodes.
+
+I also noted that the recursive approach is a good way to practice thinking in
+smaller subproblems.
+
+Handwritten notes for Day 17 are not available yet.
