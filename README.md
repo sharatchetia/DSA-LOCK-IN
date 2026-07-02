@@ -419,4 +419,30 @@ Practice:
 - Reviewed LeetCode 206 and noted the logic behind the reversal.
 
 Handwritten notes for Day 17 are in `notes/my_notes/day 17 dsa.pdf`.
+ 
+## Day 18
+
+On Day 18 I focused on important linked-list questions and practice problems
+from LeetCode. The main problems I worked on were LeetCode 19 (Remove Nth
+Node From End), LeetCode 234 (Palindrome Linked List), and LeetCode 141
+(Linked List Cycle).
+
+Key learnings:
+
+- Slow/fast pointer technique for cycle detection and finding the middle node.
+- In-place reversal of a linked list and pointer reassignments.
+- Removing the N-th node from the end using length-count and two-pointer
+  approaches.
+- Edge-case handling: empty lists, single-node lists, even/odd length lists.
+
+Practice and references:
+
+- Code: `progress/days/Day18.java` (commented snippets and practice solutions)
+- Handwritten notes: `notes/my_notes/day 17 dsa.pdf` (no dedicated Day 18 notes yet)
+- Reference PDFs: `notes/apna_college_notes/Reverse a Linked List.pdf`,
+  `notes/apna_college_notes/Linked List Java.pdf`,
+  `notes/apna_college_notes/BEST Linked List Questions.pdf`
+
+Next steps: convert the commented snippets in `Day18.java` into runnable
+methods, add small unit tests, and refine optimised solutions.
 
