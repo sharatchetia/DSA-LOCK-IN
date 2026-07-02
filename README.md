@@ -26,6 +26,7 @@ basics properly before moving to optimized approaches.
 | 16 | Linked list fundamentals and print method | Done |
 | 16C | Day 16 continuation: linked list methods and notes | Done |
 | 17 | Reversing linked lists (iterative and recursive) | Done |
+| 18 | Important linked-list questions (Remove Nth, Palindrome, Cycle) | Done |
 
 ## Folder setup
 
