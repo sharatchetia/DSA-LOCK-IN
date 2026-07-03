@@ -625,3 +625,23 @@ Practice and references:
 
 Next steps: convert the commented snippets in `Day18.java` into runnable
 methods, add small unit tests, and refine optimised solutions.
+
+## Day 19
+
+On Day 19 I implemented a custom `MyLinkedList` class (LeetCode 707) and
+practiced the standard linked-list operations: `get`, `addAtHead`, `addAtTail`,
+`addAtIndex`, and `deleteAtIndex`.
+
+Key learnings:
+
+- Maintaining list `size` simplifies bounds checks and index validation.
+- Careful pointer management is required for `addAtIndex` and `deleteAtIndex`.
+- Edge-case handling for empty lists and index boundaries is essential.
+
+Practice and references:
+
+- Code: `progress/days/Day19.java` (implementation of `MyLinkedList`)
+- Handwritten notes: `notes/my_notes/day 19 dsa.pdf` (not added yet)
+
+Next steps: add unit tests for `MyLinkedList`, test edge cases, and write
+handwritten notes for Day 19 if available.

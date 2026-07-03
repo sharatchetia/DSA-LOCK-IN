@@ -27,6 +27,7 @@ basics properly before moving to optimized approaches.
 | 16C | Day 16 continuation: linked list methods and notes | Done |
 | 17 | Reversing linked lists (iterative and recursive) | Done |
 | 18 | Important linked-list questions (Remove Nth, Palindrome, Cycle) | Done |
+| 19 | Implemented `MyLinkedList` (LeetCode 707) and linked-list operations | Done |
 
 ## Folder setup
 
