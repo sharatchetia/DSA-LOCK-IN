@@ -645,3 +645,23 @@ Practice and references:
 
 Next steps: add unit tests for `MyLinkedList`, test edge cases, and write
 handwritten notes for Day 19 if available.
+
+## Day 20
+
+On Day 20 I practiced stack implementations using both a linked-list-based
+approach and an `ArrayList`-based approach. I also worked on the recursive
+pattern of inserting at the bottom of a stack and reversing a stack.
+
+Key learnings:
+
+- A stack can be implemented using a linked list or an `ArrayList`.
+- Recursion can be used to insert at the bottom of a stack and reverse it.
+- Pointer handling and recursion base cases are important for these patterns.
+
+Practice and references:
+
+- Code: `progress/days/Day20.java`
+- Handwritten notes: `notes/my_notes/day 20 dsa.pdf` (not added yet)
+
+Next steps: practice more stack problems and convert these examples into cleaner
+reusable classes.

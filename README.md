@@ -28,6 +28,7 @@ basics properly before moving to optimized approaches.
 | 17 | Reversing linked lists (iterative and recursive) | Done |
 | 18 | Important linked-list questions (Remove Nth, Palindrome, Cycle) | Done |
 | 19 | Implemented `MyLinkedList` (LeetCode 707) and linked-list operations | Done |
+| 20 | Practiced stack implementations using linked list and `ArrayList` | Done |
 
 ## Folder setup
 
