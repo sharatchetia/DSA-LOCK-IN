@@ -665,3 +665,22 @@ Practice and references:
 
 Next steps: practice more stack problems and convert these examples into cleaner
 reusable classes.
+
+## Day 21
+
+On Day 21 I practiced queue implementations in Java. I built a normal queue,
+a circular queue, and a queue using a linked list.
+
+Key learnings:
+
+- A normal queue uses front and rear pointers and shifts elements when removing.
+- A circular queue reuses space efficiently with modular arithmetic.
+- A linked-list queue is simpler for dynamic insertion and deletion.
+
+Practice and references:
+
+- Code: `progress/days/Day21.java`
+- Handwritten notes: `notes/my_notes/day 21 dsa.pdf` (not added yet)
+
+Next steps: practice queue-based problems and compare the trade-offs between the
+three implementations.

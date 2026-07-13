@@ -29,6 +29,7 @@ basics properly before moving to optimized approaches.
 | 18 | Important linked-list questions (Remove Nth, Palindrome, Cycle) | Done |
 | 19 | Implemented `MyLinkedList` (LeetCode 707) and linked-list operations | Done |
 | 20 | Practiced stack implementations using linked list and `ArrayList` | Done |
+| 21 | Implemented queue variations: normal queue, circular queue, and linked-list queue | Done |
 
 ## Folder setup
 
