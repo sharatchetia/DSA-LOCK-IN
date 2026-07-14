@@ -684,3 +684,28 @@ Practice and references:
 
 Next steps: practice queue-based problems and compare the trade-offs between the
 three implementations.
+
+## Day 22
+
+### What I studied
+
+- Sliding window pattern (fixed-size window) and queue implementations.
+
+### Practice
+
+- Implemented `findMaxAverage` (LeetCode 643) using a sliding window.
+- Solved `maxVowels` using a vowel-count sliding window.
+- Implemented `MyQueue` using two stacks to simulate queue operations.
+
+### My notes
+
+Day 22 focused on two themes: sliding-window techniques and queue data
+structures. For sliding windows I practiced maintaining a running window sum
+or count and updating it in O(1) per step. For queues I implemented a queue
+using two stacks, learning how to move elements between stacks to achieve
+amortized O(1) operations and the trade-offs involved.
+
+Practice files: `progress/days/Day22.java`
+
+Next steps: convert these snippets into reusable methods and practice related
+LeetCode problems for sliding windows and queue-based designs.

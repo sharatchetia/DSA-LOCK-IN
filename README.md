@@ -30,6 +30,7 @@ basics properly before moving to optimized approaches.
 | 19 | Implemented `MyLinkedList` (LeetCode 707) and linked-list operations | Done |
 | 20 | Practiced stack implementations using linked list and `ArrayList` | Done |
 | 21 | Implemented queue variations: normal queue, circular queue, and linked-list queue | Done |
+| 22 | Sliding-window techniques (findMaxAverage, maxVowels) and `MyQueue` using two stacks | Done |
 
 ## Folder setup
 
