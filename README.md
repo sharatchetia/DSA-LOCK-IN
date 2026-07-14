@@ -510,3 +510,33 @@ Practice and references:
 Next steps: practice queue-based problems and compare the trade-offs between the
 three implementations.
 
+## Day 22
+
+### What I studied
+
+- Sliding-window techniques (fixed-size windows) and queue data-structure
+  variations.
+
+### Practice
+
+- Implemented `findMaxAverage(int[] nums, int k)` (LeetCode 643) using a
+  fixed-size sliding window and constant-time updates.
+- Implemented `maxVowels(String s, int k)` by maintaining a vowel count inside
+  a sliding window.
+- Implemented `MyQueue` using two stacks to simulate queue operations with
+  amortized O(1) push/pop semantics.
+
+### My notes
+
+Day 22 combined two common patterns: sliding-window for array/string problems
+and stack-backed queues. Sliding windows require maintaining the current
+window state (sum or count) and updating it in O(1) by removing the leaving
+element and adding the new element. The `MyQueue` implementation taught me how
+to transfer elements between two stacks to implement FIFO behavior while
+keeping most operations efficient.
+
+Practice files: `progress/days/Day22.java`
+
+Next steps: refactor these solutions into small reusable methods and practice
+more LeetCode sliding-window problems and queue design questions.
+
