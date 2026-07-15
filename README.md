@@ -31,6 +31,7 @@ basics properly before moving to optimized approaches.
 | 20 | Practiced stack implementations using linked list and `ArrayList` | Done |
 | 21 | Implemented queue variations: normal queue, circular queue, and linked-list queue | Done |
 | 22 | Sliding-window techniques (findMaxAverage, maxVowels) and `MyQueue` using two stacks | Done |
+| 23 | Sliding-window and queue patterns with `lengthOfLongestSubstring` and `RecentCounter` practice | Done |
 
 ## Folder setup
 
@@ -539,4 +540,35 @@ Practice files: `progress/days/Day22.java`
 
 Next steps: refactor these solutions into small reusable methods and practice
 more LeetCode sliding-window problems and queue design questions.
+
+## Day 23
+
+### What I studied
+
+- Variable-size sliding windows and queue-based rolling windows.
+- Character de-duplication in strings using a set while expanding and shrinking
+  the window.
+- The `RecentCounter` problem pattern for timestamp-based queue trimming.
+
+### Practice
+
+- Implemented `lengthOfLongestSubstring(String s)` using a sliding window and
+  `HashSet` to maintain unique characters.
+- Used a two-pointer window to move `left` when duplicates are encountered,
+  ensuring the current window always contains distinct characters.
+- Reviewed the `RecentCounter` queue pattern (LeetCode 933) for keeping only
+  pings within the last 3000 milliseconds.
+
+### My notes
+
+Day 23 was a small but solid sliding-window session. I completed the core
+`lengthOfLongestSubstring` logic by resizing the window on duplicate characters
+and tracking the maximum window length. I also reviewed a queue-based rolling
+window pattern with `RecentCounter`, which reinforces how to trim old entries
+from a queue based on a moving time boundary.
+
+Practice files: `progress/days/Day23.java`
+
+Next steps: solve more sliding-window string problems and convert the queue
+pattern into a reusable helper for time-windowed requests.
 

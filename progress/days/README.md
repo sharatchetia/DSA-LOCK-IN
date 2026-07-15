@@ -709,3 +709,24 @@ Practice files: `progress/days/Day22.java`
 
 Next steps: convert these snippets into reusable methods and practice related
 LeetCode problems for sliding windows and queue-based designs.
+
+## Day 23
+
+On Day 23 I completed sliding-window string practice and reviewed a queue-based
+rolling window pattern.
+
+Key learnings:
+
+- Use a dynamic sliding window to keep the current substring unique while
+  moving left and right pointers.
+- Maintain a `HashSet` of characters for `lengthOfLongestSubstring` and remove
+  elements from the left until the duplicate is gone.
+- `RecentCounter` uses a queue to trim old requests outside the 3000ms window.
+
+Practice and references:
+
+- Code: `progress/days/Day23.java`
+- Handwritten notes: `notes/my_notes/day 23 dsa.pdf` (not added yet)
+
+Next steps: practice more sliding-window string problems and queue-based
+window designs.
