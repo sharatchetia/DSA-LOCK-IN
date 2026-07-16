@@ -573,3 +573,31 @@ Practice files: `progress/days/Day23.java`
 Next steps: solve more sliding-window string problems and convert the queue
 pattern into a reusable helper for time-windowed requests.
 
+## Day 24
+
+### What I studied
+
+- Binary tree construction from a preorder-style integer array.
+- Recursive tree-building using a sentinel value (`-1`) for null children.
+- Node structure and left/right subtree recursion.
+
+### Practice
+
+- Implemented a recursive `buildTree(int[] nodes)` method that creates nodes
+  and returns null for `-1` markers.
+- Practiced the base-case pattern for tree recursion and how the recursive
+  index progresses through the serialized input.
+- Reviewed a commented `maxDepth` solution for calculating binary tree depth.
+
+### My notes
+
+Day 24 was about building binary trees from serialized input and thinking in
+terms of recursive subtree construction. I learned how preorder traversal
+ordering maps to the build process and how sentinel `-1` values let the code
+know when a branch ends.
+
+Practice files: `progress/days/Day24.java`
+
+Next steps: use this tree builder for traversal and tree-depth problems like
+`maxDepth`, and practice other common tree patterns.
+
