@@ -32,6 +32,7 @@ basics properly before moving to optimized approaches.
 | 21 | Implemented queue variations: normal queue, circular queue, and linked-list queue | Done |
 | 22 | Sliding-window techniques (findMaxAverage, maxVowels) and `MyQueue` using two stacks | Done |
 | 23 | Sliding-window and queue patterns with `lengthOfLongestSubstring` and `RecentCounter` practice | Done |
+| 24 | Binary tree construction from preorder input and tree depth practice | Done |
 
 ## Folder setup
 

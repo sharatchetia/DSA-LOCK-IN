@@ -730,3 +730,23 @@ Practice and references:
 
 Next steps: practice more sliding-window string problems and queue-based
 window designs.
+
+## Day 24
+
+On Day 24 I worked on binary tree construction and recursive tree traversal
+patterns.
+
+Key learnings:
+
+- Built a binary tree from a preorder-like array representation using recursion.
+- Understood the sentinel `-1` value as a marker for null children.
+- Practiced tree recursion by constructing `Node` objects and wiring left/right
+  subtrees from the input sequence.
+
+Practice and references:
+
+- Code: `progress/days/Day24.java`
+- Handwritten notes: `notes/my_notes/day 24 dsa.pdf` (not added yet)
+
+Next steps: extend this to tree traversal problems and use the same tree-building
+pattern for LeetCode tree questions like `maxDepth`.
