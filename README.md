@@ -33,6 +33,7 @@ basics properly before moving to optimized approaches.
 | 22 | Sliding-window techniques (findMaxAverage, maxVowels) and `MyQueue` using two stacks | Done |
 | 23 | Sliding-window and queue patterns with `lengthOfLongestSubstring` and `RecentCounter` practice | Done |
 | 24 | Binary tree construction from preorder input and tree depth practice | Done |
+| 25 | Binary tree comparison, symmetry, DFS traversals, and level order traversal | Done |
 
 ## Folder setup
 
@@ -601,3 +602,30 @@ Practice files: `progress/days/Day24.java`
 Next steps: use this tree builder for traversal and tree-depth problems like
 `maxDepth`, and practice other common tree patterns.
 
+## Day 25
+
+On Day 25 I practiced common binary tree LeetCode patterns using recursive DFS
+and queue-based BFS.
+
+Practice:
+
+- Same Tree
+- Symmetric Tree
+- Binary Tree Preorder Traversal
+- Binary Tree Inorder Traversal
+- Binary Tree Postorder Traversal
+- Binary Tree Level Order Traversal
+
+Key learnings:
+
+- Tree comparison needs matching null checks before comparing node values.
+- Symmetric Tree can be solved by checking whether the left and right subtrees
+  are mirrors of each other.
+- Preorder, inorder, and postorder traversals all use the same recursive shape,
+  but the position of `result.add(root.val)` changes.
+- Level order traversal uses a queue and processes one level at a time using
+  the current queue size.
+
+Practice file: `progress/days/Day25.java`
+
+Handwritten notes for Day 25 are not available yet.

@@ -750,3 +750,55 @@ Practice and references:
 
 Next steps: extend this to tree traversal problems and use the same tree-building
 pattern for LeetCode tree questions like `maxDepth`.
+
+## Day 25
+
+### What I studied
+
+- Binary tree comparison
+- Recursive tree traversal
+- Preorder traversal
+- Inorder traversal
+- Postorder traversal
+- Breadth-first traversal with a queue
+- Level order traversal
+
+### Practice
+
+- Same Tree
+- Symmetric Tree
+- Binary Tree Preorder Traversal
+- Binary Tree Inorder Traversal
+- Binary Tree Postorder Traversal
+- Binary Tree Level Order Traversal
+
+### My notes
+
+Day 25 continued binary tree practice. I worked on comparing two trees,
+checking symmetry, and writing the main DFS traversal patterns.
+
+For Same Tree, the important idea was to handle null cases first. If both nodes
+are null, the subtrees match. If only one node is null, they do not match. After
+that, compare the current values and recursively compare the left and right
+children.
+
+For Symmetric Tree, I practiced the mirror-check pattern. The left subtree and
+right subtree must match in opposite directions:
+
+- left child with right child
+- right child with left child
+
+For preorder, inorder, and postorder traversal, the recursive structure is
+mostly the same. The difference is where the current node value is added:
+
+- preorder: root, left, right
+- inorder: left, root, right
+- postorder: left, right, root
+
+For level order traversal, I used a queue and processed one level at a time.
+The key detail is storing the current queue size before the inner loop so each
+level can be grouped separately.
+
+Practice file: `progress/days/Day25.java`
+
+Handwritten notes for Day 25 are not available yet.
