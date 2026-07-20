@@ -34,6 +34,7 @@ basics properly before moving to optimized approaches.
 | 23 | Sliding-window and queue patterns with `lengthOfLongestSubstring` and `RecentCounter` practice | Done |
 | 24 | Binary tree construction from preorder input and tree depth practice | Done |
 | 25 | Binary tree comparison, symmetry, DFS traversals, and level order traversal | Done |
+| 26 | Binary tree zigzag traversal and diameter calculation | Done |
 
 ## Folder setup
 
@@ -629,3 +630,27 @@ Key learnings:
 Practice file: `progress/days/Day25.java`
 
 Handwritten notes for Day 25 are not available yet.
+
+## Day 26
+
+On Day 26 I continued binary tree practice with two common problems: zigzag
+level order traversal and diameter of a binary tree.
+
+Practice:
+
+- Binary Tree Zigzag Level Order Traversal
+- Diameter of Binary Tree
+
+Key learnings:
+
+- Zigzag level order traversal builds on normal BFS level order traversal, but
+  alternates the insertion direction for each level.
+- A boolean flag can track whether the current level should be read left to
+  right or right to left.
+- Diameter of Binary Tree can be solved while calculating subtree heights.
+- The diameter through a node is `leftHeight + rightHeight`, so the maximum
+  diameter can be updated during the height recursion.
+
+Practice file: `progress/days/Day26.java`
+
+Handwritten notes for Day 26 are not available yet.

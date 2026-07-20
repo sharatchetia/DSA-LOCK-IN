@@ -802,3 +802,42 @@ level can be grouped separately.
 Practice file: `progress/days/Day25.java`
 
 Handwritten notes for Day 25 are not available yet.
+
+## Day 26
+
+### What I studied
+
+- Binary tree BFS traversal
+- Zigzag level order traversal
+- Queue-based level processing
+- Recursive height calculation
+- Diameter of a binary tree
+
+### Practice
+
+- Binary Tree Zigzag Level Order Traversal
+- Diameter of Binary Tree
+
+### My notes
+
+Day 26 continued binary tree practice. I worked on zigzag level order traversal
+and diameter of a binary tree.
+
+For zigzag level order traversal, I reused the normal level order BFS pattern
+with a queue. The new part was using a `leftToRight` boolean to alternate how
+values are inserted into the current level list.
+
+The main zigzag idea:
+
+- if `leftToRight` is true, add the current value at the end
+- if `leftToRight` is false, add the current value at index `0`
+- flip `leftToRight` after finishing each level
+
+For diameter of a binary tree, I practiced the height-recursion pattern. The
+diameter through any node is the height of the left subtree plus the height of
+the right subtree. While returning height upward, I can update the maximum
+diameter seen so far.
+
+Practice file: `progress/days/Day26.java`
+
+Handwritten notes for Day 26 are not available yet.
