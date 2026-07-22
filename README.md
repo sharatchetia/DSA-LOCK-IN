@@ -35,6 +35,7 @@ basics properly before moving to optimized approaches.
 | 24 | Binary tree construction from preorder input and tree depth practice | Done |
 | 25 | Binary tree comparison, symmetry, DFS traversals, and level order traversal | Done |
 | 26 | Binary tree zigzag traversal and diameter calculation | Done |
+| 27 | Balanced binary tree and path sum recursion practice | Done |
 
 ## Folder setup
 

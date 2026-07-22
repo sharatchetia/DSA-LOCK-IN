@@ -841,3 +841,30 @@ diameter seen so far.
 Practice file: `progress/days/Day26.java`
 
 Handwritten notes for Day 26 are not available yet.
+
+## Day 27
+
+### What I studied
+
+- Balanced binary tree checking with a height-based recursion approach
+- Path sum recursion for leaf-to-root paths
+- Recursive tree height and base case handling
+
+### Practice
+
+- Implemented `isBalanced(TreeNode root)` using a height function that returns
+  `-1` for unbalanced subtrees.
+- Implemented `hasPathSum(TreeNode root, int targetSum)` using recursion and
+  subtracting the current node value from the target at each step.
+
+### My notes
+
+Day 27 focused on recursion-heavy tree problems. For balanced trees, the key
+idea was to make the recursive height function return an error marker when a
+subtree becomes unbalanced, so the parent can reject it early. For path sum, I
+practiced reducing the target at each recursive call and checking the leaf
+condition to confirm whether a valid root-to-leaf path exists.
+
+Practice file: `progress/days/Day27.java`
+
+Handwritten notes for Day 27 are not available yet.
