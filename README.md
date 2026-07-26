@@ -36,6 +36,7 @@ basics properly before moving to optimized approaches.
 | 25 | Binary tree comparison, symmetry, DFS traversals, and level order traversal | Done |
 | 26 | Binary tree zigzag traversal and diameter calculation | Done |
 | 27 | Balanced binary tree and path sum recursion practice | Done |
+| 28 | Binary search tree (BST) operations: search, insert, min, max, inorder successor, inorder predecessor | Done |
 
 ## Folder setup
 
@@ -682,3 +683,29 @@ condition to confirm whether a valid root-to-leaf path exists.
 Practice files: `progress/days/Day27.java`
 
 Handwritten notes for Day 27 are not available yet.
+
+## Day 28
+
+### What I studied
+
+- Binary Search Tree (BST) fundamentals and properties
+- BST search and insertion operations
+- Finding minimum and maximum values in a BST
+- Finding Inorder Successor and Inorder Predecessor in a BST
+
+### Practice
+
+- Search in a Binary Search Tree (LeetCode 700)
+- Insert into a Binary Search Tree (LeetCode 701)
+- Min Value in BST
+- Max Value in BST
+- Inorder Successor in BST
+- Inorder Predecessor in BST
+
+### My notes
+
+Day 28 focused on Binary Search Tree (BST) operations. I implemented basic search (`searchBST`) and insertion (`insertIntoBST`) using the BST property (left child < root < right child). I also wrote helper functions for finding the minimum (go left as far as possible) and maximum (go right as far as possible) elements. Finally, I practiced finding the inorder successor and predecessor: when a right/left subtree exists, find the min/max of that subtree; otherwise, traverse down from the root while tracking the last valid ancestor.
+
+Practice files: `progress/days/Day28.java`
+
+Handwritten notes for Day 28 are not available yet.

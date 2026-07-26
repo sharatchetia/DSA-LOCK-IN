@@ -868,3 +868,37 @@ condition to confirm whether a valid root-to-leaf path exists.
 Practice file: `progress/days/Day27.java`
 
 Handwritten notes for Day 27 are not available yet.
+
+## Day 28
+
+### What I studied
+
+- Binary Search Tree (BST) properties and traversal
+- BST search algorithm
+- Inserting a node into a BST
+- Min and Max element extraction in a BST
+- Inorder Successor and Inorder Predecessor logic
+
+### Practice
+
+- Search in a Binary Search Tree (LeetCode 700)
+- Insert into a Binary Search Tree (LeetCode 701)
+- Min Value in BST (`min`)
+- Max Value in BST (`max`)
+- Inorder Successor in BST (`inorderSuccessor`)
+- Inorder Predecessor in BST (`inorderPredecessor`)
+
+### My notes
+
+Day 28 was all about Binary Search Trees (BST). I practiced:
+
+1. **Search in BST (LeetCode 700)**: Leveraged the BST property to search in O(h) time by comparing values and moving left or right.
+2. **Insert into BST (LeetCode 701)**: Recursively inserted new nodes at the correct leaf position.
+3. **Min and Max**: Finding the minimum value by traversing left until `null` and maximum value by traversing right until `null`.
+4. **Inorder Successor and Predecessor**:
+   - For successor: if right subtree exists, successor is `min(p.right)`. Otherwise, search from root keeping track of the last node where we turned left (`p.val < root.val`).
+   - For predecessor: if left subtree exists, predecessor is `max(p.left)`. Otherwise, search from root keeping track of the last node where we turned right (`p.val > root.val`).
+
+Practice file: `progress/days/Day28.java`
+
+Handwritten notes for Day 28 are not available yet.
